@@ -8,7 +8,7 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 };
 
- 
+
 
 // Scroll sections active link //
 let sections = document.querySelectorAll('section');
@@ -38,11 +38,11 @@ window.onscroll = () => {
 };
 
 /* =========================== Scroll Reveal ============================ */
-ScrollReveal({ 
+ScrollReveal({
     // reset: true ,
-    distance:'80px',
+    distance: '80px',
     duration: 2000,
-    delay:200
+    delay: 200
 });
 
 ScrollReveal().reveal('.home-content,.heading', { origin: 'top' });
@@ -52,11 +52,11 @@ ScrollReveal().reveal('.home-content p,.about-content', { origin: 'right' });
 
 /* =========================== typed js ============================ */
 
-const typed =new Typed('.multiple-text',{
+const typed = new Typed('.multiple-text', {
 
-    strings:['Frontend Developer','Backend Developer','Desktop Developer C#'],
-    typeSpeed:100,
-    backSpeed:100,
-    backDelay:1000,
-    loop:true
+    strings: ['Frontend Developer', 'Backend Developer', 'Desktop Developer C#'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
 });
