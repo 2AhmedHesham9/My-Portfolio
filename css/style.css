@@ -410,6 +410,8 @@ span {
     color: var(--second-bg-color);
 }
 
+/* Responsive */
+
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
