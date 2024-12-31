@@ -60,8 +60,9 @@ section {
     cursor: pointer;
 
 }
-.logo:hover{
-    color:var(--main-color)
+
+.logo:hover {
+    color: var(--main-color)
 }
 
 .navbar a {
@@ -93,17 +94,20 @@ section {
 
 .home-image img {
     width: 35vw;
-    animation:  floatImage 4s ease-in-out infinite; 
+    animation: floatImage 4s ease-in-out infinite;
 
 }
+
 @keyframes floatImage {
-    0%{
+    0% {
         transform: translateY(0);
     }
-    50%{
+
+    50% {
         transform: translateY(-2.4rem);
     }
-    100%{
+
+    100% {
         transform: translateY(0);
     }
 }
@@ -277,6 +281,8 @@ span {
 .portfolio-box img {
     width: 100%;
     transition: .5s ease;
+    min-height: 230px !important;
+    max-height: 230px !important;
 }
 
 .portfolio-box img:hover {
@@ -554,10 +560,12 @@ span {
     .about-image img {
         width: 90vw;
     }
-    .footer{
+
+    .footer {
         flex-direction: column-reverse;
     }
-    .footer p{
+
+    .footer p {
         text-align: center;
         margin-top: 2rem;
     }
